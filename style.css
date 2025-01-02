@@ -1,0 +1,45 @@
+/* RESPONSIVE DESIGNS;
+1. Viewport
+        <meta name = "viewport" content = "width=device-width initial-scale=1.0"> 
+2. Media Query {
+    1. Media type: print, screen, ...
+    2. Media Features:  height, width, orientation.
+}
+3. Flexbox 
+4. Grids */
+
+/* MEDIA QUERY */
+@media (min-width: 600px) {
+    body {
+        background-color: cornsilk;
+    }
+}
+@media (max-width: 599px) {
+    body {
+        background-color: rgb(56, 188, 250);
+    }
+}   
+
+/* FLEXBOX */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    background-color: rgb(240, 240, 245);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+h1, h2 {
+    color: blue;
+}
+
+div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px
+} 
